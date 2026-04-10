@@ -1,2 +1,2 @@
-# xyz-company-database-system
-Database systems project for XYZ Company covering recruitment, employees, vendors, products, sales transactions, marketing locations, and payroll management.
+# XYZ Company Database System
+A relational database project designed for a manufacturing company to manage recruitment, workforce records, vendors, products, sales, and payroll.
