@@ -1,57 +1,62 @@
 # XYZ Company Database System
 
-This project is a relational database system designed for XYZ Company, a mid-sized manufacturing business that works with external vendors, internal departments, employees, customers, recruitment workflows, product management, sales operations, and payroll records.
+A relational database project designed for a mid-sized manufacturing company to manage recruitment, workforce records, vendors, products, sales operations, and payroll history.
 
-The database supports the end-to-end operations of the company by organizing and managing data related to workforce records, open job positions, candidate applications, interviews, vendor-supplied parts, finished products, sales transactions, marketing locations, and monthly salary payments.
+## Overview
 
-## Project Overview
+This project models the core business operations of **XYZ Company**, a manufacturing organization that sources components from external vendors, assembles finished products, and sells them through multiple marketing locations. The database is designed to support operational reporting, HR processes, sales tracking, and financial record management.
 
-XYZ Company:
-- Classifies components from external vendors
-- Assembles them into finished products
-- Sells products through multiple marketing locations
-- Maintains departments such as R&D, Production, and Sales
-- Tracks employees, customers, and new joiners
-- Manages recruitment, interviews, and hiring decisions
-- Stores payroll records for reporting and compliance
-
-This database was designed to model these business processes in a structured relational system.
-
-## Features
-
-- Employee and department management
-- Customer information storage
-- Vendor and component tracking
-- Product and product specification management
-- Recruitment and job application tracking
-- Interview process management
-- Sales transaction recording across multiple locations
-- Payroll history management for employees
-
-## Entities Covered
-
-The system includes data related to:
-- Departments
-- Employees
-- Customers
-- New joiners / candidates
-- Job positions
-- Applications
-- Interviews
-- Vendors
-- Parts / components
-- Products
-- Marketing locations
-- Sales transactions
-- Payroll records
+The system captures information across several business areas, including:
+- Employees and departments
+- Customers and new joiners
+- Recruitment and job applications
+- Interviews and candidate selection
+- Vendors and supplied components
+- Product specifications and pricing
+- Sales transactions across marketing locations
+- Payroll and salary payment history
 
 ## Objectives
 
-The main objective of this project is to design a database that supports:
-- Operational reporting
-- HR and recruitment workflows
-- Product and sales tracking
-- Financial and payroll auditing
+The main goals of this project are to:
+- Design a structured relational database for a realistic business environment
+- Model end-to-end workflows across HR, production, sales, and payroll
+- Improve data organization, consistency, and reporting
+- Support business operations through a normalized database design
+
+## Core Modules
+
+### Human Resources
+- Employee records
+- Department management
+- New joiner information
+- Payroll history
+
+### Recruitment
+- Open positions and job descriptions
+- Application tracking
+- Interview rounds
+- Candidate selection process
+
+### Product and Vendor Management
+- Vendor information
+- Component and part pricing
+- Product specifications
+- Product classification and assembly support
+
+### Sales and Distribution
+- Marketing locations
+- Customer records
+- Salesperson assignment
+- Sales transaction history with timestamps and locations
+
+## Database Features
+
+- Relational schema design
+- Entity relationship modeling
+- Business process mapping
+- Support for auditing and reporting
+- Structured handling of employee, customer, product, and financial data
 
 ## Technologies Used
 
@@ -61,16 +66,13 @@ The main objective of this project is to design a database that supports:
 - Normalization
 - Database Management Concepts
 
-## Repository Structure
+## Suggested Repository Structure
 
-You can organize the repository like this:
-
-- `schema.sql` – Table creation scripts
-- `insert_data.sql` – Sample data inserts
-- `queries.sql` – Example SQL queries
-- `erd.png` / `erd.pdf` – Entity Relationship Diagram
-- `report.pdf` – Project report/documentation
-
-## Notes
-
-This project was developed for academic coursework purposes and demonstrates database analysis, schema design, and relational modeling for a realistic company case study.
+```bash
+xyz-company-database-system/
+│── schema.sql
+│── insert_data.sql
+│── queries.sql
+│── erd.png
+│── report.pdf
+└── README.md
